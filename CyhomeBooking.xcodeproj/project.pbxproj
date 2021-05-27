@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18980BBD64FFDB1CB72E476D /* Pods_CyhomeBooking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C4C19EFFEC9735891554F5 /* Pods_CyhomeBooking.framework */; };
+		28C67C09265F3FA4002026D9 /* CyhomeBooking.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C67C07265F3FA4002026D9 /* CyhomeBooking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28C67C1A265F42EF002026D9 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C67C13265F42D8002026D9 /* App.xcframework */; };
+		28C67C1B265F42EF002026D9 /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28C67C13265F42D8002026D9 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28C67C1D265F42F0002026D9 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C67C14265F42D8002026D9 /* FlutterPluginRegistrant.xcframework */; };
+		28C67C1E265F42F0002026D9 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28C67C14265F42D8002026D9 /* FlutterPluginRegistrant.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28C67C1F265F42F2002026D9 /* package_info.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C67C15265F42D8002026D9 /* package_info.xcframework */; };
+		28C67C20265F42F2002026D9 /* package_info.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28C67C15265F42D8002026D9 /* package_info.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28C67C22265F42FF002026D9 /* CyhomeBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C67C21265F42FF002026D9 /* CyhomeBooking.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28C67C1C265F42EF002026D9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				28C67C1E265F42F0002026D9 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */,
+				28C67C20265F42F2002026D9 /* package_info.xcframework in Embed Frameworks */,
+				28C67C1B265F42EF002026D9 /* App.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		23C4C19EFFEC9735891554F5 /* Pods_CyhomeBooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyhomeBooking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C67C04265F3FA4002026D9 /* CyhomeBooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CyhomeBooking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C67C07265F3FA4002026D9 /* CyhomeBooking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CyhomeBooking.h; sourceTree = "<group>"; };
+		28C67C08265F3FA4002026D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C67C13265F42D8002026D9 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = framework/Debug/App.xcframework; sourceTree = SOURCE_ROOT; };
+		28C67C14265F42D8002026D9 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = framework/Debug/FlutterPluginRegistrant.xcframework; sourceTree = SOURCE_ROOT; };
+		28C67C15265F42D8002026D9 /* package_info.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = package_info.xcframework; path = framework/Debug/package_info.xcframework; sourceTree = SOURCE_ROOT; };
+		28C67C21265F42FF002026D9 /* CyhomeBooking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyhomeBooking.swift; sourceTree = "<group>"; };
+		6176B72F7DA6B50F5D3B8640 /* Pods-CyhomeBooking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyhomeBooking.release.xcconfig"; path = "Target Support Files/Pods-CyhomeBooking/Pods-CyhomeBooking.release.xcconfig"; sourceTree = "<group>"; };
+		C9C6F3DED88DD32BD2A2C65B /* Pods-CyhomeBooking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyhomeBooking.debug.xcconfig"; path = "Target Support Files/Pods-CyhomeBooking/Pods-CyhomeBooking.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28C67C01265F3FA4002026D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18980BBD64FFDB1CB72E476D /* Pods_CyhomeBooking.framework in Frameworks */,
+				28C67C1D265F42F0002026D9 /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				28C67C1F265F42F2002026D9 /* package_info.xcframework in Frameworks */,
+				28C67C1A265F42EF002026D9 /* App.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0252D3C818189AAE5A0068E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6F3DED88DD32BD2A2C65B /* Pods-CyhomeBooking.debug.xcconfig */,
+				6176B72F7DA6B50F5D3B8640 /* Pods-CyhomeBooking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		28C67BFA265F3FA4002026D9 = {
+			isa = PBXGroup;
+			children = (
+				28C67C06265F3FA4002026D9 /* CyhomeBooking */,
+				28C67C05265F3FA4002026D9 /* Products */,
+				0252D3C818189AAE5A0068E8 /* Pods */,
+				B0748C8FCFF2EE8FC2170E52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28C67C05265F3FA4002026D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28C67C04265F3FA4002026D9 /* CyhomeBooking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28C67C06265F3FA4002026D9 /* CyhomeBooking */ = {
+			isa = PBXGroup;
+			children = (
+				28C67C13265F42D8002026D9 /* App.xcframework */,
+				28C67C14265F42D8002026D9 /* FlutterPluginRegistrant.xcframework */,
+				28C67C15265F42D8002026D9 /* package_info.xcframework */,
+				28C67C21265F42FF002026D9 /* CyhomeBooking.swift */,
+				28C67C07265F3FA4002026D9 /* CyhomeBooking.h */,
+				28C67C08265F3FA4002026D9 /* Info.plist */,
+			);
+			path = CyhomeBooking;
+			sourceTree = "<group>";
+		};
+		B0748C8FCFF2EE8FC2170E52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23C4C19EFFEC9735891554F5 /* Pods_CyhomeBooking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28C67BFF265F3FA4002026D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C67C09265F3FA4002026D9 /* CyhomeBooking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28C67C03265F3FA4002026D9 /* CyhomeBooking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C67C0C265F3FA4002026D9 /* Build configuration list for PBXNativeTarget "CyhomeBooking" */;
+			buildPhases = (
+				FFF6932D86DD71B8C3BE69CC /* [CP] Check Pods Manifest.lock */,
+				28C67BFF265F3FA4002026D9 /* Headers */,
+				28C67C00265F3FA4002026D9 /* Sources */,
+				28C67C01265F3FA4002026D9 /* Frameworks */,
+				28C67C02265F3FA4002026D9 /* Resources */,
+				28C67C1C265F42EF002026D9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CyhomeBooking;
+			productName = CyhomeBooking;
+			productReference = 28C67C04265F3FA4002026D9 /* CyhomeBooking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28C67BFB265F3FA4002026D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					28C67C03265F3FA4002026D9 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 28C67BFE265F3FA4002026D9 /* Build configuration list for PBXProject "CyhomeBooking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28C67BFA265F3FA4002026D9;
+			productRefGroup = 28C67C05265F3FA4002026D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28C67C03265F3FA4002026D9 /* CyhomeBooking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28C67C02265F3FA4002026D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FFF6932D86DD71B8C3BE69CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CyhomeBooking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C67C00265F3FA4002026D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C67C22265F42FF002026D9 /* CyhomeBooking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28C67C0A265F3FA4002026D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28C67C0B265F3FA4002026D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28C67C0D265F3FA4002026D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C6F3DED88DD32BD2A2C65B /* Pods-CyhomeBooking.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CyhomeBooking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyhome.CyhomeBooking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28C67C0E265F3FA4002026D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6176B72F7DA6B50F5D3B8640 /* Pods-CyhomeBooking.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CyhomeBooking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyhome.CyhomeBooking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28C67BFE265F3FA4002026D9 /* Build configuration list for PBXProject "CyhomeBooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C67C0A265F3FA4002026D9 /* Debug */,
+				28C67C0B265F3FA4002026D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C67C0C265F3FA4002026D9 /* Build configuration list for PBXNativeTarget "CyhomeBooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C67C0D265F3FA4002026D9 /* Debug */,
+				28C67C0E265F3FA4002026D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28C67BFB265F3FA4002026D9 /* Project object */;
+}
